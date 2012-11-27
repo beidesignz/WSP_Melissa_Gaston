@@ -31,6 +31,13 @@ h3 {
 	border-radius: 5px;
 }
 
+h5 {
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #0CC;
+	font-size:16px;
+}
+
 ul {
 	clear:left;
 }
@@ -56,6 +63,7 @@ hr {
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
 	border-color: #FFF;
 	border-radius: 3px;
+	padding: 10px;
 }
 
 /*----- Nav Section -----*/
@@ -114,8 +122,7 @@ nav a:active {
 img {
 	float:left;
 	margin-left: 20px;
-	clear:both;
-	
+	display: block;
 }
 
 /*----- Footer -----*/
