@@ -1,2 +1,29 @@
 /*--- Global Reset ---*/
 @import "normalize.css";
+
+/*--- Basic Style Elements ---*/
+
+body{
+	max-width: 1020px;
+	margin: 0% auto;
+	padding: 0;
+	color: black;
+	line-height: 1.5;
+    background-image:url(../images/bg1.png); 
+	background-position:left top;
+	background-repeat:repeat;
+}
+
+p {
+	margin-bottom:7px;
+	}
+
+/*--- Main Wrapper Section ----*/
+
+#wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	background: #FFF;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
+	border-color: #FFF;
+}
