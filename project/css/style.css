@@ -74,10 +74,6 @@ header img{
 	width: 24.509803%; /*250px*/
 }
 
-.clearing{
-	clear: both;
-}
-
 /*--- Nav Section ---*/
 
 nav ul {
@@ -171,10 +167,11 @@ nav ul ul ul {
 	border-radius: 5px;
 	-webkit-border-radius: 5px; 
 	-moz-border-radius: 5px;
+	clear: both;
 }
 
 .cta {
-	width: 340px;
+	width: 34.693877%; /*340px*/
 	position: absolute;
 	margin-top: 135px;
 	margin-left: 60px;
@@ -375,11 +372,71 @@ footer .fmenu2 {
 	float: right;
 }
 
-/*-------------------------- Tablet Portrait size for standard up to 750px view --------*/
+/*-------------------------- Tablet Landscampe size for standard up to 860px view --------*/
 
-@media screen and (max-width: 750px) {
-
-
+@media screen and (max-width: 860px) {
+		#wrapper {
+		max-width: 93.023225%; /*800px*/
+	}
+	
+	/*--- Nav Section ---*/
+	
+	nav ul {
+		width: 72.5%; /*580px*/
+	}
+	
+	/*--- CTA Section ---*/
+	
+	
+	.cta {
+		margin: 5px 5px;
+		position:inherit;
+		width: 42.5%; /*340px*/
+	}
+	
+	/*--- Group 1 (Quick Links) Section ---*/
+	
+	.group1 {
+		float: none;
+		width: 52.083333%; /*250px*/
+		clear: both;
+		
+	}
+	
+	/*--- Group 2 (At A Glance) Section --*/
+	
+	.group2 {
+		float: left;
+		width: 33.7209230%; /*290px*/		
+	}
+	
+	/*--- Group 3 (Latest News) Section ---*/
+	
+	.group3 {
+		float: left;
+		width: 58.13953%; /*500px*/
+	}
+	
+	/*--- Group 4 (Main Content) Section ---*/
+	
+	.group4 {
+		float: none;
+		width: 93.023255%; /*800px*/
+	}
+	
+	/*--- Group 5 (Contact Info) Section ---*/
+	
+	.group5 {
+		float: left;
+		width: 46.511627%; /*400px*/
+	}
+	
+	/*--- Group 6 (Questions Form) Section ---*/
+	
+	.group6 {
+		float: right;
+		width: 29.069767%; /*250px*/
+	}
 }
 
 
@@ -388,7 +445,76 @@ footer .fmenu2 {
 
 @media screen and (min-width: 480px) and (max-width: 700px) {
 
+	#wrapper {
+		max-width: 80%; /*600px*/
+	}
+	
+	/*--- Logo Section ---*/
+	
+	header img{
+		margin: auto;
+		padding: 20px;
+		width: 52.083333%; /*250px*/
+	}
+	
+	/*--- Nav Section ---*/
+	
+	nav ul {
+		width: 150px;
+		display: block;
+	}
+	
+	/*--- CTA Section ---*/
+	
+	.cta {
+		visibility: hidden;
+	}
 
+	/*--- Group 1 (Quick Links) Section ---*/
+	
+	.group1 {
+		float: none;
+		width: 52.083333%; /*250px*/
+		clear: both;
+	}
+	
+	/*--- Group 2 (At A Glance) Section --*/
+	
+	.group2 {
+		float: left;
+		width: 33.7209230%; /*290px*/
+		padding: 0 10px;
+		margin-left: 20px;
+		
+	}
+	
+	/*--- Group 3 (Latest News) Section ---*/
+	
+	.group3 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
+	
+	/*--- Group 4 (Main Content) Section ---*/
+	
+	.group4 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
+	
+	/*--- Group 5 (Contact Info) Section ---*/
+	
+	.group5 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
+	
+	/*--- Group 6 (Questions Form) Section ---*/
+	
+	.group6 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
 }
 	
 
@@ -397,5 +523,69 @@ footer .fmenu2 {
 
 @media screen and (max-width: 478px) {
 
+	header img{
+		margin: auto;
+		padding: 20px;
+		width: 52.083333%; /*250px*/
+	}
+	
+	/*--- Nav Section ---*/
+	
+	nav ul {
+		width: 150px;
+		display: block;
+	}
+	
+	/*--- CTA Section ---*/
+	
+	.cta {
+		visibility: hidden;
+	}
+	
+	/*--- Group 1 (Quick Links) Section ---*/
+	
+	.group1 {
+		float: none;
+		width: 52.083333%; /*250px*/
+		clear: both;
+	}
+	
+	/*--- Group 2 (At A Glance) Section --*/
+	
+	.group2 {
+		float: left;
+		width: 33.7209230%; /*290px*/
+		padding: 0 10px;
+		margin-left: 20px;
+		
+	}
+	
+	/*--- Group 3 (Latest News) Section ---*/
+	
+	.group3 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
+	
+	/*--- Group 4 (Main Content) Section ---*/
+	
+	.group4 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
+	
+	/*--- Group 5 (Contact Info) Section ---*/
+	
+	.group5 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
+	
+	/*--- Group 6 (Questions Form) Section ---*/
+	
+	.group6 {
+		float: none;
+		width: 68.571428%; /*480px*/
+	}
 
 }
