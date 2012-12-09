@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <link rel="stylesheet" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Magra:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
 <title>Spring Lake Elementary - Homepage</title>
 </head>
 
@@ -11,16 +13,16 @@
     
 <!-- NAVIGATION/LOGO SECTION -->
 	<header>
-		<h1><a href="index.html"><img src="images/SLE_Logo.png" alt="Spring Lake Elementary School Logo that links back to the homepage"></a></h1>
+		<a href="index.html"><img src="images/SLE_Logo.png" alt="Spring Lake Elementary School Logo that links back to the homepage" width="250" height="75"></a>
 	</header>
-	
 	<nav>
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html" class="active">Home</a></li>
 			<li><a href="about.html">About Us</a>
             	<ul>
                 	<li><a href="policy.html">Policy &amp; Requirements</a></li>
                 </ul>
+            </li>
 			<li><a href="#">Parents</a>
             	<ul>
                 	<li><a href="#">Parent Connection</a></li>
@@ -31,24 +33,28 @@
                     <li><a href="#">Managee Messenger</a></li>
                     <li><a href="guidance.html">Registration</a></li>
                 </ul>
+            </li>
 			<li><a href="guidance.html">Guidance</a>
             	<ul>
                 	<li><a href="awards.html">Awards &amp; Recognition</a></li>
                     <li><a href="#">Community Involvement</a></li>
                 </ul>
+            </li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
     
 <!-- MAIN CONTENT SECTION -->
 
-  <p><img src="images/Generosity.jpg" width="940" height="320" alt="Generosity: Unselishness demostrated by caring, concern and sharing."></p>
-  	<h1>Spring Lake Newsletter</h1>
+ 	<div id="banner"><img src="images/banner.jpg" width="940" height="320" alt="Generosity: Unselishness demostrated by caring, concern and sharing."></div>
+  	<div class="cta">
+    <h1>Spring Lake Newsletter</h1>
     <p>Sign up for the Spring Lake Elementary e-mail list to receive Manatee Messenger, important information, and upcoming school events.</p>
-    <p><a href="#">Sign up</a></p>
-    <section>
-    	<h2>Quick Links</h2>
-    	<ul>
+    <p class="button red"><a href="#">Sign up</a></p>
+    </div>
+    <section class="group1">
+    	<h1>Quick Links</h1>
+    	<ul class="sub">
            <li><a href="#">Faculty &amp; Staff</a></li>
            <li><a href="#">Kid Zone</a></li>
            <li><a href="#">SAC</a></li>
@@ -56,7 +62,7 @@
            <li><a href="#">School Calendar</a></li>
            <li><a href="#">Useful Links</a></li>
         </ul>
-        <h3>Hours of Operaion</h3>
+        <h2>Hours of Opertaion</h2>
         <p>Office Hours:<br>
         Monday - Friday<br>
        7:30am - 3:30pm</p>
@@ -64,10 +70,10 @@
         Monday - Friday<br>
        7:30am - 2:20pm</p>
     </section>
-	<article>
-    	<h2>About Spring Lake</h2>
+	<aside class="group4">
+    	<h1>About Spring Lake</h1>
 		<p>Spring Lake Elementary was established in 1966 and has served the community with an outstanding education for many years. The school is located in Altamonte Springs, Florida, which is about 15 miles outside of Orlando, Florida. Spring Lake has been a Five Star School for the past 7 years. Our New Principal, Mrs. Shana Rafalski and Assistant Principal, Ms. Omayra Torres are committed to setting a standard of excellence. The current focus for Spring Lake Elementary is the revitalization of classroom instruction utilizing current technology and research to promote positive collaboration, enhance learning and create a respectful climate that will encourage students to reach their learning potential.</p>
-        <h3>School Profile</h3>
+        <h2>School Profile</h2>
         	<ul>
         		<li>Current Enrollment: 820</li>
 				<li>School Hours: 7:40 am - 2:20 pm</li>
@@ -80,17 +86,14 @@
 				<li>English for Speakers of Other Languages Program (ESOL): Yes</li>
 				<li>Clubs/Activities: Daily student-produced morning news program - WSLE Channel 56 News; 5th Grade Patrols; Student Council; 4th and 5th Grade Chorus; SECME and Runner's Club</li>
 			</ul>
-    </article>
+    </aside>
     </div>
     
 <!-- FOOTER SECTION -->
+	<!-- FOOTER COPYRIGHT SECTION -->
 	<footer>
-    	<p>&copy; Copyright 2012 Spring Lake Elementary. All Rights Reserved</p>
-    	<ul>
-        	<li><a href="contact.html">Contact</a></li>
-            <li><a href="contact.html">Directions</a></li>
-            <li><a href="#">Links</a></li>
-        </ul>
+    	<p class="fmenu1">&copy; Copyright 2012 Spring Lake Elementary. All Rights Reserved</p>
+    	<p class="fmenu2"><a href="contact.html">Contact</a> | <a href="contact.html">Directions</a> | <a href="#">Links</a></p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Magra Bold'), local('Magra-Bold'), url(http://themes.googleusercontent.com/static/fonts/magra/v1/YlhLowBXAVg7FJcSC0CClXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Magra'), url(http://themes.googleusercontent.com/static/fonts/magra/v1/5mmKlSloEdHMhJ2GHKCr6KCWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
