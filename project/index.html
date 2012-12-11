@@ -6,6 +6,7 @@
 <link href='http://fonts.googleapis.com/css?family=Magra:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
 <title>Spring Lake Elementary - Homepage</title>
+
 </head>
 
 <body>
@@ -14,34 +15,95 @@
 <!-- NAVIGATION/LOGO SECTION -->
 	<header><a href="index.html"><img src="images/SLE_Logo.png" alt="Spring Lake Elementary School Logo that links back to the homepage" ></a></header>
     <b class="clearing"></b>
-	<nav>
-		<ul>
-			<li><a href="index.html" class="active">Home</a></li>
-			<li><a href="about.html">About Us</a>
-            	<ul>
-                	<li><a href="policy.html">Policy &amp; Requirements</a></li>
+		<ul id="menu">
+    
+    <li><a href="index.html" >Home</a></li>
+    
+    <li><a href="about.html" class="drop">About</a><!-- Begin 1 column About Us Section -->
+		<div class="dropdown_1column"><!-- Begin 1 column container About Us Section -->
+                <div class="col_1">
+                    <ul class="greybox">
+                        <li><a href="#">School Policy</a></li>
+                        <li><a href="#">Requirements</a></li>
+                        <li><a href="#">Uniforms</a></li>
+						<li><a href="policy.html">Privacy Policy</a></li>
+                    </ul>   
+                </div> 
+		</div><!-- End 1 column container About Us Section -->
+	</li><!-- End 1 columns container About Us Section -->
+
+    <li><a href="#" class="drop">Parents</a><!-- Begin 3 columns Parents Section -->
+        <div class="dropdown_3columns"><!-- Begin 3 columns container Parents Section -->
+            <div class="col_3">
+                <h2>Parent Connection</h2>
+            </div>
+            
+            <div class="col_2">
+                <p><a href="#">FLDOE Letter to Parents</a> from the Florida Department of Education regarding School Grades.</p> 
+                <p class="grey_box">All Dividen Voluteers are required to re-activate their applications each  year. If you cannot register online, paper applications are available at Spring Lake Elementary or at the Educational Support Center. Click <a href="https://www3.scps.k12.fl.us/secure/CommInv_Vol/Vols2003/vollogin.cfm">here</a> to go to the online application</p>
+            </div>
+            
+            <div class="col_1">
+                <ul class="greybox">
+					<li><a href="#">Uniforms</a></li>
+				   <li><a href="#">PTA</a></li>
+				   <li><a href="#">Registration</a></li>
+				   <li><a href="#">FCAT Explorer</a></li>
+				   <li><a href="#">Timez Attack</a></li>
                 </ul>
-            </li>
-			<li><a href="#">Parents</a>
-            	<ul>
-                	<li><a href="#">Parent Connection</a></li>
-                    <li><a href="#">Uniforms</a></li>
-                    <li><a href="#">Supply Lists</a></li>
-                    <li><a href="#">PTA</a></li>
-                    <li><a href="#">Grace Level Newsletters</a></li>
-                    <li><a href="#">Managee Messenger</a></li>
-                    <li><a href="guidance.html">Registration</a></li>
-                </ul>
-            </li>
-			<li><a href="guidance.html">Guidance</a>
-            	<ul>
-                	<li><a href="awards.html">Awards &amp; Recognition</a></li>
-                    <li><a href="#">Community Involvement</a></li>
-                </ul>
-            </li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
+            </div>
+        
+            <div class="col_3">
+                <h3>Newsletters</h3>
+            </div>
+           
+            <div class="col_3"> 
+              <img src="images/class_news.jpg" class="img_left imgshadow" />
+              <p>Classroom News:  Grade Level Newsletters that are directed towards our parents containing all of the information regarding the events and curriculum of each grade. <a href="#">Visit Archive...</a></p>
+        
+                <img src="images/SLN_Manatee_Message.jpg" class="img_left imgshadow" />
+                <p>Manatee Messenger is a way of keepin gour students, parents, and faculty aware of the events and ongoings of Spring Lake Elementary <a href="#">Visit Archive...</a></p>
+            </div>
+        </div><!-- End 3 columns container Parents Section -->
+    </li><!-- End 3 columns Parents Section -->
+    
+    <li><a href="guidance.html" class="drop">Guidance</a><!-- Begin 2 columns Guidance Section -->
+        <div class="dropdown_2columns"><!-- Begin 3 columns container Guidance Section -->
+            
+            <div class="col_2">
+                <h2>Welcom to Guidance</h2>
+            </div>
+            
+            <div class="col_1">
+                <ul class="greybox">
+                    <li><a href="#">Awards & recognition</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Guidance Calendar</a></li>
+                    <li><a href="#">Scrapbook</a></li>
+                    <li><a href="#">Messageboard</a></li>
+                    <li><a href="#">Document Manager</a></li>
+                    <li><a href="#">Useful Links</a></li>
+                </ul>   
+          	</div>
+                 
+      		<div class="col_2">
+                <h3>Contacts</h3>
+            </div>
+            
+            <div class="col_2">
+                <img src="images/AlisonJohnson.jpg" class="img_left imgshadow" alt="" />
+            	<p>Alison Johnson - Grades [Kindergarten, First, Fifth, and MOD]<a href="#">Contact</a></p><br />
+				<p>&nbsp;</p>
+                <img src="images/MegAnderson.jpg" class="img_left imgshadow" alt="" />
+                <p>Meg Anderson - Grades [Pre-K, Second, Third, and Fourth]<a href="#">Contact</a></p>
+            </div>
+        </div><!-- End 3 columns container Guidance Section --> 
+    </li><!-- End 3 columns Guidance Section -->
+
+   	<li><a href="contact.html" >Contact</a><!-- Begin 1 column Contact Us Section -->
+	</li><!-- End 1 columns container Contact Us Section -->
+
+</ul>
     
 <!-- MAIN CONTENT SECTION -->
     
