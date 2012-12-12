@@ -10,7 +10,7 @@
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	max-width: 1020px;
+	max-width: 1050px;
 	margin: 0% auto;
 	font-size: 81.25%; /*13px*/
 	line-height: 1.5;
@@ -57,7 +57,7 @@ h3{
 /*--- Main Wrapper Section ----*/
 
 #wrapper {
-	max-width: 96.078431%; /*980px*/
+	max-width: 95.238095%; /*1000px*/
 	margin: 0 auto;
 	background-color: white;
 	padding: 15px;
@@ -72,18 +72,16 @@ h3{
 header img{
    	float:left;
    	padding: 20px 20px;
-	width: 24.509803%; /*250px*/
+	width: 25.0%; /*250px*/
 }
 
 /*--- Nav Section ---*/
 
 #menu {
-	clear: left;
 	font-size: 81.25%; /*13px*/ 
 	line-height: 1.5;
 	text-align: left;
 	list-style: none;
-	width: 59.183673%; /*580px*/
 	margin: 20px auto 0px auto;
 	height: 43px;
 	padding: 0px 20px 0px 20px;
@@ -180,9 +178,9 @@ header img{
 	margin-left: 5px;
 	margin-right: 5px;
 }
-.col_1 {width: 130px;}
-.col_2 {width: 270px;}
-.col_3 {width: 410px;}
+.col_1 {width: 140px;}
+.col_2 {width: 280px;}
+.col_3 {width: 420px;}
 
 #menu p, #menu h2, #menu h3, #menu ul li {
 	line-height: 21px;
@@ -288,10 +286,10 @@ header img{
 /*--- Banner Section ---*/
 
 #banner img {
-	width: 95.918367%; /*940px*/
-	margin: 1.063829%; /*10px*/
+	width: 94.0%; /*940px*/
+	margin: 2.0%; /*20px*/
 	float: left;
-	padding: 1.063829%; /*10px*/
+	padding: 1.0%; /*10px*/
 	background: #0C2760;
 	border-radius: 5px;
 	-webkit-border-radius: 5px; 
@@ -300,13 +298,14 @@ header img{
 }
 
 .cta {
-	width: 34.693877%; /*340px*/
+	width: 25.0%;
+	height: 175px;
 	position: absolute;
-	margin-top: 135px;
+	margin-top: 230px;
 	margin-left: 60px;
 	background: #0C2760;
 	border-radius: 5px;
-	-webkit-border-radius: 5px; 
+	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	overflow: hidden;
 }
@@ -422,7 +421,7 @@ header img{
 
 .group2 {
 	float: left;
-	width: 25.510204%; /*290px*/
+	width: 29.0%; /*290px*/
 	padding: 0 10px;
 	margin-left: 20px;
 	
@@ -432,7 +431,7 @@ header img{
 
 .group3 {
 	float: right;
-	width: 25.510204%; /*290px*/
+	width: 29.0%; /*290px*/
 	padding: 0 5px;
 	margin-left: 10px;
 }
@@ -452,7 +451,7 @@ header img{
 
 .group4 {
 	float: left;
-	width: 61.224489%; /*600px*/
+	width: 60.0%; /*600px*/
 	padding: 0 10px;
 	margin-left:10px;
 }
@@ -461,7 +460,7 @@ header img{
 
 .group5 {
 	float: left;
-	width: 39.591836%; /*388px*/
+	width: 38.88%; /*388px*/
 	padding: 0 10px;
 	margin-left: 5px;
 }
@@ -470,7 +469,7 @@ header img{
 
 .group6 {
 	float: left;
-	width: 23.469387%; /*230px*/
+	width: 23.0%; /*230px*/
 	padding: 0 10px;
 	margin-left: 5px;
 }
