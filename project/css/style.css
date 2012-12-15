@@ -139,9 +139,7 @@ header img{
 	background: url("../images/drop.gif") no-repeat right 7px;
 }
 
-.dropdown_1column, 
-.dropdown_2columns, 
-.dropdown_3columns {
+.dropdown_1column {
 	margin: 4px auto;
 	float: left;
 	position: absolute;
@@ -158,20 +156,16 @@ header img{
 	border-radius: 0px 5px 5px 5px;
 }
 
-.dropdown_1column {width: 140px;}
-.dropdown_2columns {width: 280px;}
-.dropdown_3columns {width: 420px;}
+.dropdown_1column {
+	width: 140px;
+}
 
-#menu li:hover .dropdown_1column, 
-#menu li:hover .dropdown_2columns, 
-#menu li:hover .dropdown_3columns {
+#menu li:hover .dropdown_1column {
 	left: -1px;
 	top: auto;
 }
 
-.col_1,
-.col_2,
-.col_3 {
+.col_1 {
 	display: inline;
 	float: left;
 	position: relative;
@@ -179,31 +173,11 @@ header img{
 	margin-right: 5px;
 }
 .col_1 {width: 140px;}
-.col_2 {width: 280px;}
-.col_3 {width: 420px;}
 
-#menu p, #menu h2, #menu h3, #menu ul li {
+#menu ul li {
 	line-height: 21px;
 	font-size: 12px;
 	text-align: left;
-}
-#menu h2 {
-	font-size: 21px;
-	font-weight: 400;
-	letter-spacing: -1px;
-	margin: 7px 0 14px 0;
-	padding-bottom: 14px;
-	border-bottom: 1px solid #666;
-}
-#menu h3 {
-	font-size: 14px;
-	margin: 7px 0 14px 0;
-	padding-bottom: 7px;
-	border-bottom: 1px solid #888;
-}
-#menu p {
-	line-height: 18px;
-	margin: 0 0 10px 0;
 }
 
 #menu li:hover div a {
@@ -212,34 +186,6 @@ header img{
 }
 #menu li:hover div a:hover {
 	color: #029feb;
-}
-
-.imgshadow {
-	background: #FFF;
-	padding: 4px;
-	border: 1px solid #777;
-	margin-top: 5px;
-	-moz-box-shadow: 0px 0px 5px #666;
-	-webkit-box-shadow: 0px 0px 5px #666;
-	box-shadow: 0px 0px 5px #666;
-}
-.img_left {
-	height: 70px;
-	width: 70px;
-	float: left;
-	margin: 5px 15px 5px 5px;
-}
-
-#menu li .grey_box {
-	background-color: #CCC;
-	color: #000;
-	padding: 4px 6px 4px 6px;
-	-moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-	-webkit-box-shadow: inset 0 0 3px #000;
-	-moz-box-shadow: inset 0 0 3px #000;
-	box-shadow: inset 0 0 3px #000;
 }
 
 #menu li ul {
@@ -264,25 +210,6 @@ header img{
 	margin: 0;
 }
 
-#menu li .greybox li {
-	background: #F4F4F4;
-	border: 1px solid #BBB;
-	margin: 0px 0px 4px 0px;
-	padding: 4px 6px 4px 6px;
-	width: 116px;
-	-moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-}
-#menu li .greybox li:hover {
-	background: #FFF;
-	border: 1px solid #AAA;
-	padding: 4px 6px 4px 6px;
-	margin: 0px 0px 4px 0px;
-}
-
-
 /*--- Banner Section ---*/
 
 #banner img {
@@ -298,8 +225,7 @@ header img{
 }
 
 .cta {
-	width: 25.0%;
-	height: 175px;
+	width: 30.0%;
 	position: absolute;
 	margin-top: 230px;
 	margin-left: 60px;
@@ -308,6 +234,7 @@ header img{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	overflow: hidden;
+	padding: 5px;
 }
 
 .cta h1 {
@@ -345,11 +272,13 @@ header img{
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
 .button:hover {
-	text-decoration: none;
+	color: #ffffff;
+	text-decoration: underline;
 }
 .button:active {
 	position: relative;
 	top: 1px;
+	color: #fff;
 }
 
 .bigrounded {
@@ -357,35 +286,51 @@ header img{
 	-moz-border-radius: 2em;
 	border-radius: 2em;
 }
-.medium {
-	font-size: 12px;
-	padding: .4em 1.5em .42em;
-}
-.small {
-	font-size: 11px;
-	padding: .2em 1em .275em;
-}
 
 /* red */
 .red {
-	color: #faddde;
+	color: #ffffff;
 	border: solid 1px #980c10;
 	background: #d81b21;
 	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
 	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
 }
-.red:hover {
+
+.red a {
+	color: #ffffff;
+}
+
+.red a:hover {
 	background: #b61318;
+	color: #ffffff;
+	text-decoration: underline;
 	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
 	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
 }
-.red:active {
-	color: #de898c;
+.red a:active {
+	color: #ffffff;
 	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
 	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
 }
 
 /*--- end button---*/
+
+.imgshadow {
+	background: #FFF;
+	padding: 4px;
+	border: 1px solid #777;
+	margin-top: 5px;
+	-moz-box-shadow: 0px 0px 5px #666;
+	-webkit-box-shadow: 0px 0px 5px #666;
+	box-shadow: 0px 0px 5px #666;
+}
+.img_left {
+	height: 70px;
+	width: 70px;
+	float: left;
+	margin: 5px 15px 5px 5px;
+	clear: both;
+}
 
 /*--- Group 1 (Quick Links) Section ---*/
 
@@ -453,7 +398,7 @@ header img{
 	float: left;
 	width: 60.0%; /*600px*/
 	padding: 0 10px;
-	margin-left:10px;
+	margin-left: 10px;
 }
 
 /*--- Group 5 (Contact Info) Section ---*/
@@ -489,220 +434,485 @@ footer .fmenu2 {
 	float: right;
 }
 
-/*-------------------------- Tablet Landscampe size for standard up to 860px view --------*/
+/*-------------------------- Tablet Landscape size for standard up to 860px view --------*/
 
 @media screen and (max-width: 860px) {
 		#wrapper {
-		max-width: 93.023225%; /*800px*/
-	}
+			max-width: 93.023225%; /*800px*/
+		}
 	
-	/*--- Nav Section ---*/
-	
-	nav ul {
-		width: 72.5%; /*580px*/
-	}
-	
-	/*--- CTA Section ---*/
-	
-	
-	.cta {
-		margin: 5px 5px;
-		position:inherit;
-		width: 42.5%; /*340px*/
-	}
-	
-	/*--- Group 1 (Quick Links) Section ---*/
-	
-	.group1 {
-		float: none;
-		width: 52.083333%; /*250px*/
-		clear: both;
+		/*--- Nav Section ---*/
 		
+		#menu {
+			float: left;
+			margin: auto 15px;
+		}
+		
+		/*--- CTA Section ---*/
+		
+		.cta {
+			margin: 5px 15px;
+			width: 42.5%; /*340px*/
+			clear: both;
+			position: inherit;
+		}
+		
+		/*--- Group 1 (Quick Links) Section ---*/
+		
+		.group1 {
+			margin: 5px 15px;
+			width: 31.25%; /*250px*/
+			clear: both;
+			
+		}
+		
+		/*--- Group 2 (At A Glance) Section --*/
+		
+		.group2 {
+			float: left;
+			width: 33.7209230%; /*290px*/		
+		}
+		
+		/*--- Group 3 (Latest News) Section ---*/
+		
+		.group3 {
+			float: left;
+			width: 58.13953%; /*500px*/
+		}
+		
+		/*--- Group 4 (Main Content) Section ---*/
+		
+		.group4 {
+			float: right;
+			width: 56.25%; /*450px*/
+		}
+		
+		/*--- Group 5 (Contact Info) Section ---*/
+		
+		.group5 {
+			float: left;
+			width: 46.511627%; /*400px*/
+		}
+		
+		/*--- Group 6 (Questions Form) Section ---*/
+		
+		.group6 {
+			float: left;
+			width: 29.069767%; /*250px*/
+		}
 	}
-	
-	/*--- Group 2 (At A Glance) Section --*/
-	
-	.group2 {
-		float: left;
-		width: 33.7209230%; /*290px*/		
-	}
-	
-	/*--- Group 3 (Latest News) Section ---*/
-	
-	.group3 {
-		float: left;
-		width: 58.13953%; /*500px*/
-	}
-	
-	/*--- Group 4 (Main Content) Section ---*/
-	
-	.group4 {
-		float: none;
-		width: 93.023255%; /*800px*/
-	}
-	
-	/*--- Group 5 (Contact Info) Section ---*/
-	
-	.group5 {
-		float: left;
-		width: 46.511627%; /*400px*/
-	}
-	
-	/*--- Group 6 (Questions Form) Section ---*/
-	
-	.group6 {
-		float: right;
-		width: 29.069767%; /*250px*/
-	}
+
+
+
+	/*-------------- Mobile Landscape size to Tablet Portrait size up to 750px view --------*/
+
+	@media screen and (min-width: 480px) and (max-width: 700px) {
+
+		#wrapper {
+			max-width: 80%; /*600px*/
+		}
+		
+		/*--- Logo Section ---*/
+		
+		header img{
+			margin: auto;
+			padding: 20px;
+			width: 52.083333%; /*250px*/
+		}
+		
+		/*--- Nav Section ---*/
+		#menu {
+			clear: both;
+			text-align: center;
+			list-style-type: none;
+			margin: 20px auto 0px auto;
+			height: auto;
+			padding: 0px;
+			float: none;
+			border: 0px;
+			-moz-border-radius: 0px;
+			-webkit-border-radius: 0px;
+			border-radius: 0px;
+			background: none;
+			-moz-box-shadow: none;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		#menu li {
+			float: none;
+			display: block;
+			text-align: center;
+			position: relative;
+			padding: 4px 10px 4px 10px;
+			margin-right: 30px;
+			margin-top: 7px;
+			border: none;
+			background: #AA2121;
+			background: -moz-linear-gradient(top, #C25050, #AA2121);
+			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C25050), to(#AA2121));
+			-moz-box-shadow: inset 0px 0px 1px #edf9ff;
+			-webkit-box-shadow: inset 0px 0px 1px #edf9ff;
+			box-shadow: inset 0px 0px 1px #edf9ff;
+		}
+
+		#menu li:hover {
+			border: 0px;
+			padding: 4px 9px 4px 9px;
+			background: #F4F4F4;
+			background: -moz-linear-gradient(top, #F4F4F4, #EEE);
+			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEE));
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+		}
+
+		#menu li a {
+			font-size: 14px; 
+			color: #EEEEEE;
+			display: block;
+			outline: 0;
+			text-decoration: none;
+		}
+
+		#menu li:hover a {
+			color: #161616;
+		}
+		#menu li .drop {
+			padding-right: 21px;
+			display: block;
+		}
+		#menu li:hover .drop {
+			background: none;
+		}
+
+		.dropdown_1column {
+			margin: 4px auto;
+			float: none;
+			position: absolute;
+			left: -999em; /* This line hides the drop down until hover code */
+			text-align: left;
+			padding: 10px 5px 10px 5px;
+			border: 1px solid #777;
+			border-top: none;
+			background: #F4F4F4;
+			background: -moz-linear-gradient(top, #EEE, #CCC);
+			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEE), to(#CCC));
+			-moz-border-radius: 0px 5px 5px 5px;
+			-webkit-border-radius: 0px 5px 5px 5px;
+			border-radius: 0px 5px 5px 5px;
+		}
+
+		.dropdown_1column {
+			width: 140px;
+		}
+
+		#menu li:hover .dropdown_1column {
+			left: -1px;
+			top: auto;
+		}
+
+		.col_1 {
+			display: inline;
+			float: left;
+			position: relative;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+		.col_1 {width: 140px;}
+
+		#menu ul li {
+			line-height: 21px;
+			font-size: 12px;
+			text-align: left;
+		}
+
+		#menu li:hover div a {
+			font-size: 12px;
+			color: #015b86;
+		}
+		#menu li:hover div a:hover {
+			color: #029feb;
+		}
+
+		#menu li ul {
+			list-style: none;
+			padding: 0;
+			margin: 0 0 12px 0;
+		}
+		#menu li ul li {
+			font-size: 12px;
+			line-height: 24px;
+			position: relative;
+			padding: 0;
+			margin: 0;
+			float: none;
+			text-align: left;
+			width: 130px;
+		}
+		#menu li ul li:hover {
+			background: none;
+			border: none;
+			padding: 0;
+			margin: 0;
 }
 
 
-
-/*-------------- Mobile Landscape size to Tablet Portrait size up to 750px view --------*/
-
-@media screen and (min-width: 480px) and (max-width: 700px) {
-
-	#wrapper {
-		max-width: 80%; /*600px*/
-	}
-	
-	/*--- Logo Section ---*/
-	
-	header img{
-		margin: auto;
-		padding: 20px;
-		width: 52.083333%; /*250px*/
-	}
-	
-	/*--- Nav Section ---*/
-	
-	nav ul {
-		width: 150px;
-		display: block;
-	}
-	
-	/*--- CTA Section ---*/
-	
-	.cta {
-		visibility: hidden;
-	}
-
-	/*--- Group 1 (Quick Links) Section ---*/
-	
-	.group1 {
-		float: none;
-		width: 52.083333%; /*250px*/
-		clear: both;
-	}
-	
-	/*--- Group 2 (At A Glance) Section --*/
-	
-	.group2 {
-		float: left;
-		width: 33.7209230%; /*290px*/
-		padding: 0 10px;
-		margin-left: 20px;
 		
-	}
-	
-	/*--- Group 3 (Latest News) Section ---*/
-	
-	.group3 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
-	
-	/*--- Group 4 (Main Content) Section ---*/
-	
-	.group4 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
-	
-	/*--- Group 5 (Contact Info) Section ---*/
-	
-	.group5 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
-	
-	/*--- Group 6 (Questions Form) Section ---*/
-	
-	.group6 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
-}
-	
-
-
-/*-------------- Mobile Portrait size to Mobile Landscape size up to 480px view --------*/
-
-@media screen and (max-width: 478px) {
-
-	header img{
-		margin: auto;
-		padding: 20px;
-		width: 52.083333%; /*250px*/
-	}
-	
-	/*--- Nav Section ---*/
-	
-	nav ul {
-		width: 150px;
-		display: block;
-	}
-	
-	/*--- CTA Section ---*/
-	
-	.cta {
-		visibility: hidden;
-	}
-	
-	/*--- Group 1 (Quick Links) Section ---*/
-	
-	.group1 {
-		float: none;
-		width: 52.083333%; /*250px*/
-		clear: both;
-	}
-	
-	/*--- Group 2 (At A Glance) Section --*/
-	
-	.group2 {
-		float: left;
-		width: 33.7209230%; /*290px*/
-		padding: 0 10px;
-		margin-left: 20px;
+		/*--- CTA Section ---*/
 		
-	}
-	
-	/*--- Group 3 (Latest News) Section ---*/
-	
-	.group3 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
-	
-	/*--- Group 4 (Main Content) Section ---*/
-	
-	.group4 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
-	
-	/*--- Group 5 (Contact Info) Section ---*/
-	
-	.group5 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
-	
-	/*--- Group 6 (Questions Form) Section ---*/
-	
-	.group6 {
-		float: none;
-		width: 68.571428%; /*480px*/
-	}
+		.cta {
+			margin: 
+			visibility: hidden;
+		}
 
+		/*--- Group 1 (Quick Links) Section ---*/
+		
+		.group1 {
+			float: none;
+			width: 52.083333%; /*250px*/
+			clear: both;
+		}
+		
+		/*--- Group 2 (At A Glance) Section --*/
+		
+		.group2 {
+			float: left;
+			width: 33.7209230%; /*290px*/
+			padding: 0 10px;
+			margin-left: 20px;
+			
+		}
+		
+		/*--- Group 3 (Latest News) Section ---*/
+		
+		.group3 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+		
+		/*--- Group 4 (Main Content) Section ---*/
+		
+		.group4 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+		
+		/*--- Group 5 (Contact Info) Section ---*/
+		
+		.group5 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+		
+		/*--- Group 6 (Questions Form) Section ---*/
+		
+		.group6 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+	}
+		
+
+
+	/*-------------- Mobile Portrait size to Mobile Landscape size up to 480px view --------*/
+
+	@media screen and (min-width: 320px, max-width: 478px) {
+
+		header img{
+			margin: auto;
+			padding: 20px;
+			width: 52.083333%; /*250px*/
+		}
+		
+		/*--- Nav Section ---*/
+		
+		#menu {
+			clear: both;
+			text-align: center;
+			list-style-type: none;
+			margin: 20px auto 0px auto;
+			height: auto;
+			padding: 0px;
+			float: none;
+			border: 0px;
+			-moz-border-radius: 0px;
+			-webkit-border-radius: 0px;
+			border-radius: 0px;
+			background: none;
+			-moz-box-shadow: none;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		#menu li {
+			float: none;
+			display: block;
+			text-align: center;
+			position: relative;
+			padding: 4px 10px 4px 10px;
+			margin-right: 30px;
+			margin-top: 7px;
+			border: none;
+			background: #AA2121;
+			background: -moz-linear-gradient(top, #C25050, #AA2121);
+			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C25050), to(#AA2121));
+			-moz-box-shadow: inset 0px 0px 1px #edf9ff;
+			-webkit-box-shadow: inset 0px 0px 1px #edf9ff;
+			box-shadow: inset 0px 0px 1px #edf9ff;
+		}
+
+		#menu li:hover {
+			border: 0px;
+			padding: 4px 9px 4px 9px;
+			background: #F4F4F4;
+			background: -moz-linear-gradient(top, #F4F4F4, #EEE);
+			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEE));
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+		}
+
+		#menu li a {
+			font-size: 14px; 
+			color: #EEEEEE;
+			display: block;
+			outline: 0;
+			text-decoration: none;
+		}
+
+		#menu li:hover a {
+			color: #161616;
+		}
+		#menu li .drop {
+			padding-right: 21px;
+			display: block;
+		}
+		#menu li:hover .drop {
+			background: none;
+		}
+
+		.dropdown_1column {
+			margin: 4px auto;
+			float: none;
+			position: absolute;
+			left: -999em; /* This line hides the drop down until hover code */
+			text-align: left;
+			padding: 10px 5px 10px 5px;
+			border: 1px solid #777;
+			border-top: none;
+			background: #F4F4F4;
+			background: -moz-linear-gradient(top, #EEE, #CCC);
+			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEE), to(#CCC));
+			-moz-border-radius: 0px 5px 5px 5px;
+			-webkit-border-radius: 0px 5px 5px 5px;
+			border-radius: 0px 5px 5px 5px;
+		}
+
+		.dropdown_1column {
+			width: 140px;
+		}
+
+		#menu li:hover .dropdown_1column {
+			left: -1px;
+			top: auto;
+		}
+
+		.col_1 {
+			display: inline;
+			float: left;
+			position: relative;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+		.col_1 {width: 140px;}
+
+		#menu ul li {
+			line-height: 21px;
+			font-size: 12px;
+			text-align: left;
+		}
+
+		#menu li:hover div a {
+			font-size: 12px;
+			color: #015b86;
+		}
+		#menu li:hover div a:hover {
+			color: #029feb;
+		}
+
+		#menu li ul {
+			list-style: none;
+			padding: 0;
+			margin: 0 0 12px 0;
+		}
+		#menu li ul li {
+			font-size: 12px;
+			line-height: 24px;
+			position: relative;
+			padding: 0;
+			margin: 0;
+			float: none;
+			text-align: left;
+			width: 130px;
+		}
+		#menu li ul li:hover {
+			background: none;
+			border: none;
+			padding: 0;
+			margin: 0;
 }
+		
+		/*--- CTA Section ---*/
+		
+		.cta {
+			visibility: hidden;
+		}
+		
+		/*--- Group 1 (Quick Links) Section ---*/
+		
+		.group1 {
+			float: none;
+			width: 52.083333%; /*250px*/
+			clear: both;
+		}
+		
+		/*--- Group 2 (At A Glance) Section --*/
+		
+		.group2 {
+			float: left;
+			width: 33.7209230%; /*290px*/
+			padding: 0 10px;
+			margin-left: 20px;
+			
+		}
+		
+		/*--- Group 3 (Latest News) Section ---*/
+		
+		.group3 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+		
+		/*--- Group 4 (Main Content) Section ---*/
+		
+		.group4 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+		
+		/*--- Group 5 (Contact Info) Section ---*/
+		
+		.group5 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+		
+		/*--- Group 6 (Questions Form) Section ---*/
+		
+		.group6 {
+			float: none;
+			width: 68.571428%; /*480px*/
+		}
+
+	}
