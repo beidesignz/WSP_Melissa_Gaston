@@ -521,7 +521,8 @@ footer .fmenu2 {
 		}
 		
 		/*--- Nav Section ---*/
-		#menu {
+
+#menu {
 			clear: both;
 			text-align: center;
 			list-style-type: none;
@@ -655,10 +656,7 @@ footer .fmenu2 {
 			border: none;
 			padding: 0;
 			margin: 0;
-}
-
-
-		
+}		
 		/*--- CTA Section ---*/
 		
 		.cta {
@@ -712,8 +710,6 @@ footer .fmenu2 {
 			width: 68.571428%; /*480px*/
 		}
 	}
-		
-
 
 	/*-------------- Mobile Portrait size to Mobile Landscape size up to 480px view --------*/
 
@@ -861,8 +857,8 @@ footer .fmenu2 {
 			border: none;
 			padding: 0;
 			margin: 0;
-}
-		
+		}
+
 		/*--- CTA Section ---*/
 		
 		.cta {
